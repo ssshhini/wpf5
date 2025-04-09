@@ -1,0 +1,16 @@
+﻿<Window x:Class="Wpf_Math_practice5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Math_practice5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center">
+            <TextBlock Text="praktik 5:" FontSize="20"/>
+        </StackPanel>
+        <ComboBox x:Name="TaskComboBox" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200" SelectionChanged="TaskComboBox_SelectionChanged"/>
+        <TextBox x:Name="ResultTextBox" HorizontalAlignment="Center" Margin="0,242,0,0" VerticalAlignment="Top" Width="286" Height="46" IsReadOnly="True" TextWrapping="Wrap"/>
+    </Grid>
+</Window>
